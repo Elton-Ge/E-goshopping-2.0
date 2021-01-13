@@ -2,12 +2,16 @@
   <div class="header">
     <div class="wrap">
       <div class="logo">
-        <p>怡购购物商城</p>
+        <p>
+          <a href="https://e-goshopping-elton.netlify.app/">
+            怡购购物商城
+          </a>
+        </p>
       </div>
-      <Search />
-      <Cart />
-      <SearchHot />
-      <NavItem />
+      <Search/>
+      <Cart/>
+      <SearchHot/>
+      <NavItem/>
       <div class="treasure"></div>
     </div>
   </div>
@@ -17,6 +21,7 @@ import SearchHot from "./SearchHot";
 import Cart from "./Cart";
 import Search from "./Search";
 import NavItem from "./NavItem";
+
 export default {
   name: "TopNav",
   data() {
@@ -34,11 +39,13 @@ export default {
 .header {
   width: 100%;
   height: 140px;
+
   .wrap {
     position: relative;
     width: 1200px;
     height: 140px;
     margin: 0 auto;
+
     .logo {
       position: absolute;
       z-index: 2;
@@ -46,14 +53,16 @@ export default {
       top: 0px;
       width: 205px;
       height: 100px;
+
       p {
         position: absolute;
         top: 27px;
-        left:36px;
+        left: 36px;
         color: #a30412;
         font-size: 28px;
       }
     }
+
     .treasure {
       float: left;
       position: absolute;

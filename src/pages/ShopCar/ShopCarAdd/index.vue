@@ -3,7 +3,10 @@
         <TopNav/>
         <div class="search">
             <div class="logo">
-                <h1 style="color:red;">怡购购物商城</h1>
+                <h1 style="color:red;">
+                  <a href="">
+
+                  怡购购物商城</a></h1>
                 <!-- <span class="car">购物车</span> -->
             </div>
             <div class="input">
