@@ -15,7 +15,5 @@ npm run dev
 npm run build
 ```
 
-### Knowledge point
-Vue + VueX + Mock + Axios
 
 
